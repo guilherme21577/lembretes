@@ -1,66 +1,80 @@
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Rubik+Glitch+Pop&display=swap');
+
+
+  
 
 :root {
-    --cor-de-fundo: #1E1E1E;
+    --cor-de-fundo: #161618;
     --verde: #6FFF57;
     --branco: #FFFFFF;
     --botao-ativo: #3A375E;
     --botao-inativo: rgba(58, 55, 94, 0.5);
     --texto-fundo: rgba(58, 55, 94, 0.3);
-}
+
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
 
 body {
-    background-color: var(--cor-de-fundo);
-    color: var(--branco);
-    font-family: 'Chakra Petch', sans-serif;
+  background-color: var(--cor-de-fundo);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+  color: var(--branco);
+  font-family: 'Chakra Petch', sans-serif;
 }
-.conteudo-principal{
-flex-direction: column;
-display: flex;
-justify-content: center;
-align-items: center;
-max-width: 1200px;
-width: 100%;
-margin: 0 auto;
-}
-.titulo-principal{
-text-align: left;
-width: 100%;
-font-size: 32px;
-}
-.conteudo-principal samp{
-color: var(--verde);
-}
-.botao{
- background-color: var(--botao-inativo);
- color: var(--branco);
-display: flex;
-justify-content: center;
-padding: 1em;
-font-size: 18px;
-align-items: center;
-width: 100%;
-border-bottom: 4px solid var (--botao-ativo);
-border-left: 2px solid var (--botao-ativo);
-border-right: 2px solid var(--botao-ativo);
-border-top: none;
-}
-.botaes{
-    display: block;
-    }
 
-@media screen and (min-width: 768px){
-.botaes{
-display: flex;
+.conteudo-principal{
+ flex-direction: column;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ max-width: 1200px;
+ width: 100%;
+ margin: 0 auto;
 }
-.botao:first-child {
-border-radius: 40px 0 0 0;
+
+.titulo-principal{
+  text-align: left;
+  width: 100%;
+  font-size: 32px;
 }
-botao:last-child{
+
+.titlo-principal-span{
+  color: var(--verde);
+}
+
+.botao{
+  background-color: var(--botao-inativo);
+  color: var(--branco);
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  font-size: 18px;
+  align-items: center;
+  width: 100%;
+  border-bottom: 4px solid var(--botao-ativo);
+  border-left: 2px solid var(--botao-ativo);
+  border-right: 2px solid var(--botao-ativo);
+  border-top: none;
+}
+
+.botoes{
+  display: block;
+}
+@media screen and (min-width: 768px) {
+  .botoes{
+    display: flex;
+  }
+
+  .botao:last-child{
     border-radius: 0 40px 0 0;
+  }
+
+  .botao:first-child{
+    border-radius: 40px 0 0 0;
+  }
+
 }
-}
+
 .ativo{
-background-color: var(--botao-ativo);
-border-bottom: 4px solid var(--verde);
+  background-color: var(--botao-ativo);
+  border-bottom: 4px solid var(--verde);
 }
+  
