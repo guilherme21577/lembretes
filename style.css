@@ -1,23 +1,24 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Rubik+Glitch+Pop&display=swap');
-
-
+@import url('https://fonts.google.com/share?selection.family=Caveat:wght@400..700');
   
 
+
+
+
 :root {
-    --cor-de-fundo: #161618;
+    --cor-de-fundo: #ff0095;
     --verde: #6FFF57;
-    --branco: #FFFFFF;
-    --botao-ativo: #3A375E;
-    --botao-inativo: rgba(58, 55, 94, 0.5);
-    --texto-fundo: rgba(58, 55, 94, 0.3);
+    --branco: #04060a;
+    --botao-ativo: #ffffff;
+    --botao-inativo: rgba(0, 204, 255, 0.5);
+    --texto-fundo: rgba(0, 255, 179, 0.3);
 
 }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
 
 body {
   background-color: var(--cor-de-fundo);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
   color: var(--branco);
-  font-family: 'Chakra Petch', sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 .conteudo-principal{
@@ -58,6 +59,14 @@ body {
 .botoes{
   display: block;
 }
+
+
+.abas-textos{
+
+  background-color: var(--texto-fundo);
+padding: 40px;
+border-radius: 0 0 40px 40px;
+}
 @media screen and (min-width: 768px) {
   .botoes{
     display: flex;
@@ -71,10 +80,13 @@ body {
     border-radius: 40px 0 0 0;
   }
 
+
+.botao.ativo{
+background-color: var(--botao-ativo);]
+border-bottom: 4px solid var(--verde);
 }
 
 .ativo{
   background-color: var(--botao-ativo);
   border-bottom: 4px solid var(--verde);
 }
-  
